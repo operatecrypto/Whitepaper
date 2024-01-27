@@ -57,15 +57,32 @@ Blockchain will be engaged for several usecases differently. Several scenarios a
 ![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/4e813635-00e3-47df-a45a-06b92c6ec7b1)
 
 ## Layer 2. BASE ACCESS LAYER
-![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/8aaed40f-c70b-4d98-97e2-7e750911c8c1)
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/434af4ea-0bd5-4fc0-89a7-1fe3d665379d)
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/f11b6976-2d36-43fa-a48d-dc35eeeec2b7)
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/ee7587bb-709d-4cc9-ade9-024151e7b386)
 
-## Layer 
-## Layer 
-## Layer 
-## Layer 
-## Layer 
-## Layer 
-## Layer 
+## Layer 3. BLOCKCHAIN ORCHESTRATION LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/258a3e60-cd90-481b-a20f-d59f6167e699)
+
+## Layer 4. CORE INTERACTION LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/bab12d2a-b70b-4790-96ad-247fcfd49b5c)
+
+## Layer 5. APP METADATA LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/0342fa7d-c4f3-4e9f-9fb5-1ea69835b343)
+
+## Layer 6. PLATFORM ENGINE LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/de52d378-7132-4b93-995a-899a9a780d6f)
+
+## Layer 7. PLATFORM SERVICE LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/1ae682e8-bd92-4cc4-94f8-0730ca5a4e0a)
+
+## Layer 8. POWER DDAPPS LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/7ad88fe6-1c86-4e50-820e-762ef9932e34)
+
+## Layer 9. BUSINESS DDAPPS LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/7995941a-8895-4373-b461-541aac78f376)
+
+
 ## Layer 
 
 
