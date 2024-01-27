@@ -23,6 +23,50 @@ In the beginning of the project, we will utilize several existing Blockchain pro
 
 In three phases, OperateCrypto aims to deliver a platform that will be capable of hostng enterprise scale applications on decentralized world 
 
+## Intruging but difficult to believe?
+We already have made great progress. Check out the youtube demos. We are uploading demo videos. 
+Also attend AMA sessions to find out how much we have established.
+Proof of concepts such as RuleEngine on consesnus will be made available only when it is time. So much demostrable work is already established
+
 
 ## High level components
 ![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/e87ff864-f163-46e2-bc0f-a19f7910bdb6)
+1. DDApps - Decentralized Data Apps
+Imagine a hospitable management software or eCommerce application completely built on decentralized technology
+2. Web2
+   An application will be restricted if it cannot interact with Web2. Until all applications in the world is mingrated into Web 2, applications will eventually need to reach out to Web 2 world for data and information. Also during the development phase 1, many features of the app will depend on Web2 technologies such as Email
+
+3. Web3
+The system will have high trust established with the custom wallet. That is why we call it Web3+
+
+4. DE-PIN
+The current decentralized physical infrastruture is fast maturing. If we find an efficient and trust worthy partner on individual integration points such as email or SMS, we will utilize them
+
+5. Blockchain
+Blockchain will be engaged for several usecases differently. Several scenarios are discussed here
+
+
+## Architectural Blueprint
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/76009381-a9ac-44a0-8534-1c4379ff0aec)
+
+
+## Layered Architecture
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/67dbf761-9e09-4e1b-952f-5608051ea96c)
+
+## Layer 1- BASE LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/4e813635-00e3-47df-a45a-06b92c6ec7b1)
+
+## Layer 2. BASE ACCESS LAYER
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/8aaed40f-c70b-4d98-97e2-7e750911c8c1)
+
+## Layer 
+## Layer 
+## Layer 
+## Layer 
+## Layer 
+## Layer 
+## Layer 
+## Layer 
+
+
+
