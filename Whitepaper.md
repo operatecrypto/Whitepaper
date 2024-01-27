@@ -1,4 +1,10 @@
 # Whitepaper
+##Revisions
+Author: Binoy Jose
+- Created on 12/07/2021
+- Updated on 9/9/2022
+- Updated on 6/6/2023
+- Updated on 1/1/2024
 
 # Introduction
 Complex database applications, such as eCommerce applications, were once deemed impossible in the decentralized world. However, this perception is about to change.
