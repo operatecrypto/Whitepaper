@@ -149,102 +149,97 @@ This layer will be developed by ecosystem developers, not app developers.
 ## Libraries and apps created by communities
 Envision event management software crafted by a decentralized developer, certified by a trusted organization, and hosted by a reliable private or public Node provider.
 
-
 # Approach
 
 ### Agile
-We like agile development and incremental delivery
-   - Incremental
-   - Always delivered
-   - Don’t reinvent the wheel
-### Strategic partnership
-We are interested only in strategic partnership. That means if partnered, long term vesting options will be established
-   - No compromise on vision and road map
-### Deliver top layer first
-   Our initial approach was to deliver the core base components. But later we realized, it is wise to deliver top controls with basic core components. That wasy we can 
-   - Make revenue early (reinvest revenue)
-   - Flexibility on architecture (We can choose some of the partners as last step)
-   - User adoption passed early
-   - That means the base components will only offer the minimum vialble features
+We embrace agile development and incremental delivery.
+   - Incremental progress
+   - Consistent delivery
+   - Avoid reinventing the wheel
 
-# Side chains & Private chains
-Private nodes can run completely seperated private installations with "Proof of Authority" model.
+### Strategic Partnership
+We prioritize strategic partnerships. This implies that, with a partnership established, long-term vesting options will be put in place.
+   - No compromise on vision and roadmap
 
-# Initial support
-Phase 2- ERC20
-Phase 3- BRC20
+### Deliver Top Layer First
+Our initial strategy was to deliver the core base components. However, we later realized it is wise to deliver top controls along with basic core components. This way, we can:
+   - Generate revenue early (reinvest revenue)
+   - Retain flexibility in architecture (Partner selection can be a later step)
+   - Achieve early user adoption
+   - Ensure that base components offer only the minimum viable features
+
+# Side Chains & Private Chains
+Private nodes can operate as completely separate installations using the "Proof of Authority" model.
 
 
-# Partners and investors
-Team is really busy developing applications. Our focus is not shifted into funding. Not worrying about the market and investors gives all of us a lot of focus. Remember, focus is key, esepcially when we have to deliver 300+ apps in such as short span of time. So we are not reaching out to VCs yet. But if you really want to make a significant investment in the project, write to operatecrypto@gmail.com
+# Initial Support
+Phase 2 - ERC20
+Phase 3 - BRC20
+
+# Partners and Investors
+Our team is currently focused on developing applications, and our attention has not shifted to fundraising. Not actively seeking market engagement and investors allows us to maintain a concentrated focus. For those interested in making significant investments in the project, please reach out to operatecrypto@gmail.com.
 
 # Promoters
-No, we are not promoting the project yet. However you are more than wecome to invite us for interviews. Currently we are engaing only in tech discussions.
+We are not actively promoting the project at the moment. However, we welcome invitations for interviews and are currently engaging only in technical discussions.
 
-# General public
-Please join our groups and get engaged in activities. We need lot of help on development, testing and developing ecosystem apps.
+# General Public
+Please join our groups and actively participate in activities. We need a lot of assistance in development, testing, and creating ecosystem apps.
 
 # Token
-Token: Operate (OperateCrypto) on Polygon network. We are not going to release it yet. So dont fall for scammers
+Token: Operate (OperateCrypto) on the Polygon network. We are not releasing it yet, so be cautious of scammers.
 
-# How can you own tokens?
+# How Can You Own Tokens?
 ### Public Launch - Not Yet
-   - (Wait for announcement from all our social media platforms - watch out for fake coin announcements)
-### Airdrops 
-opportunities will be announced on our social media
-### Community developer 
-We need all kind of help - you will be rewarded with Operate tokens
-### Develop business apps on our platform 
-We will train you. We support provide initial development funding for a limited time
-### Donate Matic to our developer funding Matic address. 
-- Matic Address: “0x91a8eBb78129dcA2e9bCF998645F3cE99B033352”.(Please compare this with all our social media apps and main web site. Mutiple point validation is key.)
-- If you donate Matic to the funding address, you will receive early tokens at much cheaper prices through airdrops. Higher matic means larger airdrops.
+   - Wait for announcements on all our social media platforms (beware of fake coin announcements).
+### Airdrops
+Opportunities will be announced on our social media.
+### Community Developer
+We need all kinds of help, and you will be rewarded with Operate tokens.
+### Develop Business Apps on Our Platform
+We will provide training and initial development funding for a limited time.
+### Donate Matic to Our Developer Funding Matic Address
+- Matic Address: “0x91a8eBb78129dcA2e9bCF998645F3cE99B033352” (Please verify on all our social media apps and the main website for validation).
+- Donating Matic to the funding address qualifies you for early tokens at more affordable prices through airdrops. More Matic means larger airdrops.
 
 # Warning
 
 ### Verify Truth
-   - Reach out to community and ensure addresses before you purchase
-   - Don’t get scammed
-### All initial funds will be used for development. If development is halted due to any reason, it is a financial risk. Do your due diligence
-### When you decide to use our ecosystem apps:
-   - Ensure the app is certified (Unless it is critical data)
-   - We are engaging with a third party testing team for certification
-   - Many testnet servers don’t offer databack - ensure you have back figured out
-   - Never store your private keys or sensitive passwords on the servers
-         -  Our testnet servers are not secured yet. We are not even allowing you to store privatekeys yet
+   - Reach out to the community and ensure addresses before making a purchase.
+   - Be cautious of scams.
+### All initial funds will be used for development. If development is halted for any reason, it poses a financial risk. Do your due diligence.
+### When Using Our Ecosystem Apps:
+   - Ensure the app is certified (unless it involves critical data).
+   - We are engaging with a third-party testing team for certification.
+   - Many testnet servers don’t offer data backup; ensure you have a backup plan.
+   - Never store your private keys or sensitive passwords on the servers.
+         - Our testnet servers are not secured yet, and storing private keys is not allowed.
 
 # Next Steps
-### $317 apps to be delivered
+### 317 apps to be delivered
 ### 15 technologies
 ### Huge QA effort
-### Total 3 major releases - V1, V2 and V3
+### Total of 3 major releases - V1, V2, and V3
 ### V1 has 10 phases 
    - First phase of V1 - due on Jan-31, 2024
-- Second phase of V1 - due on Feb-22, 2024. 
-- All app demos will happen through YouTube live
-- Testnet will soon be available
+   - Second phase of V1 - due on Feb-22, 2024.
+   - All app demos will happen through YouTube live.
+   - Testnet will soon be available.
 
 # Schedule
-Provide here. It will be updated monthly
-  https://github.com/users/operatecrypto/projects/1
+Please refer to the monthly updates provided here: 
+[OperateCrypto Project Schedule](https://github.com/users/operatecrypto/projects/1)
+
 # Disclaimer
-### Do not consider the token as a financial investment
+### Do not consider the token as a financial investment.
 ### Financial success of the token will depend on several factors such as
    - New Funding
    - Our Marketing
    - Technology Feasibility
    - Market conditions
-### Try to get into airdrops and developer rewards
-### Do your due diligence and analyze your own risks
-
-
-
+### Try to get into airdrops and developer rewards.
+### Do your due diligence and analyze your own risks.
 
 ### Join our 
-twitter - to get updates
-Discord - to get involved 
-youtube - to view demos, tech discussions and AMAs
-
-
-
-
+- [Twitter](twitter.com) - for updates
+- [Discord](discord.com) - to get involved
+- [YouTube](youtube.com) - for demos, tech discussions, and AMAs
