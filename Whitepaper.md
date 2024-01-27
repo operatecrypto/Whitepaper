@@ -1,6 +1,6 @@
 # Whitepaper
 ##Revisions
-Author: Binoy Jose
+- Author: Binoy Jose
 - Created on 12/07/2021
 - Updated on 9/9/2022
 - Updated on 6/6/2023
