@@ -21,27 +21,31 @@ OperateCrypto is currently in the process of building sophisticated data applica
 Operate Crypto aims to deliver a platform capable of hosting enterprise-scale applications in the decentralized world in three phases.
  
 
-## Intruging but difficult to believe?
-We already have made great progress. Check out the youtube demos. We are uploading demo videos. 
-Also attend AMA sessions to find out how much we have established.
-Proof of concepts such as RuleEngine on consesnus will be made available only when it is time. So much demostrable work is already established
+## Intriguing but difficult to believe?
 
+We have made significant progress already. Explore our YouTube demos, where we are regularly uploading demonstration videos. Additionally, attend our Ask Me Anything (AMA) sessions to gain insights into the substantial groundwork we've accomplished. Proof of concepts, such as the RuleEngine on consensus, will be shared when the time is right. There is already a considerable amount of demonstrable work that has been established.
 
 ## High level components
 ![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/e87ff864-f163-46e2-bc0f-a19f7910bdb6)
 1. DDApps - Decentralized Data Apps
-Imagine a hospitable management software or eCommerce application completely built on decentralized technology
+
+Imagine hospitable management software or an eCommerce application completely built on decentralized technology.
+
 2. Web2
-   An application will be restricted if it cannot interact with Web2. Until all applications in the world is mingrated into Web 2, applications will eventually need to reach out to Web 2 world for data and information. Also during the development phase 1, many features of the app will depend on Web2 technologies such as Email
+
+An application will be restricted if it cannot interact with Web2. Until all applications in the world are migrated into Web 2, applications will eventually need to reach out to the Web2 world for data and information. Also, during the development phase 1, many features of the app will depend on Web2 technologies, such as Email.
 
 3. Web3
-The system will have high trust established with the custom wallet. That is why we call it Web3+
+
+The system will establish high trust with the custom wallet. That's why we call it Web3+.
 
 4. DE-PIN
-The current decentralized physical infrastruture is fast maturing. If we find an efficient and trust worthy partner on individual integration points such as email or SMS, we will utilize them
+
+The current decentralized physical infrastructure is fast maturing. If we find an efficient and trustworthy partner on individual integration points, such as email or SMS, we will utilize them.
 
 5. Blockchain
-Blockchain will be engaged for several usecases differently. Several scenarios are discussed here
+
+Blockchain will be engaged for several use cases differently. Various scenarios are discussed here.
 
 
 ## Architectural Blueprint
