@@ -1,27 +1,25 @@
 # Whitepaper
 
 ## Introduction
-Complex database applications such as eCommerce applications were never a possibility in the decentralized world.
+Complex database applications, such as eCommerce applications, were once deemed impossible in the decentralized world. However, this perception is about to change.
 
-Well, it is going to change soon.
+OperateCrypto is currently in the process of building sophisticated data applications in the decentralized realm. In the initial stages of the project, we plan to leverage various existing blockchain projects, including Ethereum, Polygon, and FileCoin. Nevertheless, to establish a truly sustainable decentralized platform, the following key components are essential:
 
-Operate crypto is in the process of buidling complex data applications in the decentralized world. 
-
-In the beginning of the project, we will utilize several existing Blockchain projects like Ethereum, Polygon and FileCoin. However, to build a true sustainable decentralized platform, these are the key components that are required
-1. A next generation wallet (with a wallet-server connection)
-2. A ecetralized rules engine
-3. A ecetralized process engine
-4. A ecetralized database engine and storage
-5. Trusted connectivery to centralized world
-6. A trust execution environment for Nodes
-7. A trusted remote processing
+1. A next-generation wallet (with a wallet-server connection)
+2. A decentralized rules engine
+3. A decentralized process engine
+4. A decentralized database engine and storage
+5. Trusted connectivity to the centralized world
+6. A trusted execution environment for nodes
+7. Trusted remote processing
 8. An app development studio
 9. A rules development studio
 10. A website development studio
 11. A process development studio
 12. A smart contract development studio
 
-In three phases, OperateCrypto aims to deliver a platform that will be capable of hostng enterprise scale applications on decentralized world 
+Operate Crypto aims to deliver a platform capable of hosting enterprise-scale applications in the decentralized world in three phases.
+ 
 
 ## Intruging but difficult to believe?
 We already have made great progress. Check out the youtube demos. We are uploading demo videos. 
