@@ -31,27 +31,27 @@ Operate Crypto aims to deliver a platform capable of hosting enterprise-scale ap
 
 We have made significant progress already. Explore our YouTube demos, where we are regularly uploading demonstration videos. Additionally, attend our Ask Me Anything (AMA) sessions to gain insights into the substantial groundwork we've accomplished. Proof of concepts, such as the RuleEngine on consensus, will be shared when the time is right. There is already a considerable amount of demonstrable work that has been established.
 
-## High level components
+# High level components
 ![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/421d85f5-4411-47f2-a679-b2e3595502d5)
 
 
-1. DDApps - Decentralized Data Apps
+### 1. DDApps - Decentralized Data Apps
 
 Imagine hospitable management software or an eCommerce application completely built on decentralized technology.
 
-2. Web2
+### 2. Web2
 
 An application will be restricted if it cannot interact with Web2. Until all applications in the world are migrated into Web 2, applications will eventually need to reach out to the Web2 world for data and information. Also, during the development phase 1, many features of the app will depend on Web2 technologies, such as Email.
 
-3. Web3
+### 3. Web3
 
 The system will establish high trust with the custom wallet. That's why we call it Web3+.
 
-4. DE-PIN
+### 4. DE-PIN
 
 The current decentralized physical infrastructure is fast maturing. If we find an efficient and trustworthy partner on individual integration points, such as email or SMS, we will utilize them.
 
-5. Blockchain
+### 5. Blockchain
 
 Blockchain will be engaged for several use cases differently. Various scenarios are discussed here.
 
@@ -139,22 +139,22 @@ This layer hosts all ecosystem apps. Anyone worldwide can create and publish app
 This layer will be developed by ecosystem developers, not app developers.
 
 
-## What is our USP
+# What is our USP
 ### Low Code
    - Develop an app in minutes
    - Low-cost solution
    - Machine Learning-friendly
    - Quick AI enablement
-## End to end 
+### End to end 
    - Comprehensive capabilities, covering everything
-## Felxible 
+### Felxible 
    - Choose fully decentralized, centralized, or a hybrid.
 
-## Beautiful
+### Beautiful
 - Incredible web design studios
 - Built-in usability engineering
 
-## Libraries and apps created by communities
+### Libraries and apps created by communities
 Envision event management software crafted by a decentralized developer, certified by a trusted organization, and hosted by a reliable private or public Node provider.
 
 # Approach
