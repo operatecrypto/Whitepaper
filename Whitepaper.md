@@ -32,7 +32,8 @@ Operate Crypto aims to deliver a platform capable of hosting enterprise-scale ap
 We have made significant progress already. Explore our YouTube demos, where we are regularly uploading demonstration videos. Additionally, attend our Ask Me Anything (AMA) sessions to gain insights into the substantial groundwork we've accomplished. Proof of concepts, such as the RuleEngine on consensus, will be shared when the time is right. There is already a considerable amount of demonstrable work that has been established.
 
 ## High level components
-![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/aef1814d-71fc-447d-b052-520471f21e15)
+![image](https://github.com/operatecrypto/Whitepaper/assets/91952872/421d85f5-4411-47f2-a679-b2e3595502d5)
+
 
 1. DDApps - Decentralized Data Apps
 
