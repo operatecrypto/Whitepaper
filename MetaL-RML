@@ -1,0 +1,94 @@
+
+# Example of RULE:
+
+
+<Rule ID="0f1dd0c8-2aab-4f9c-bc47-42f4b8fb90e6" Name="Make_ControlTypeBased_ScreenArrangement" Caption="Make ControlType Based Screen Arrangement" RuleObjectType="Command" DerivedFromID="Make_DataSourceScreenArrangement_Deleted" CreateLogFile="N" Enabled="N" ResID="82dd6b7e-e625-4b5c-ae21-5daaad0f4f3c" ResIDRegisted="N" ID_ResIDMismatch="Y">
+  <Conditions>
+    <Condition ID="0d420ff2-a5db-412e-a716-368cc4c4ba97" Name="ValueOfControlTypeIsGrid" Caption="Value Of ControlType is Grid" CompareOperation="~=" CreateLogFile="N" ResID="7579f434-bd25-4a78-b133-c0008676c296" ResIDRegisted="N" ID_ResIDMismatch="Y">
+      <Operands>
+        <Operand ID="7c74ab23-44c8-41b0-85bc-c103bbd490a6" Name="ControlTypeValue" Caption="Control Type Value" Side="Left" OperandType="sender" DataType="String" Value="Text" ResID="e8ed4456-c9ba-4311-9295-376f463baed0" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+        <Operand ID="b52f3127-328d-43c2-a6f4-4660cf34b083" Name="ValueGrid" Caption="Grid" Side="Right" OperandType="Value" DataType="String" Value="Grid" ResID="227322b1-ad53-4f58-99b6-cf2c77feb8be" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+      </Operands>
+      <PreActionSet>
+        <ActionSet ID="8f257f8e-0a80-4b73-9c4e-0cfa672b6854" Name="HideAllTabs" Caption="HideAllTabs" RuleObjectType="Command" CreateLogFile="N" ResID="0619caf4-4571-47b2-8916-60b2107ccce6" ResIDRegisted="N" ID_ResIDMismatch="Y">
+          <Actions>
+            <Action RefID="Action_Form_EnableSelectedControls" ActionClass="" RuleObjectType="" RunAt="" ReturnType="" CreateLogFile="N" LogFileName="" ImplementationHeader="" ImplementedThrough="" TabControl_Implementation="" Constant="" AssemblyName="" ClassName="" MemberName="" IsStaticMethod="N" ActionButton_PublishAction="" ActionButton_TestAction="" IsAbstract="N" Language="" SourceCode="">
+              <Params>
+                <Param Name="TabToHide" Value="Grid"/>
+                <Param Name="TabToHide" Value="Tab"/>
+                <Param Name="TabToHide" Value="Lookup"/>
+                <Param Name="TabToHide" Value="Textbox"/>
+              </Params>
+            </Action>
+          </Actions>
+        </ActionSet>
+      </PreActionSet>
+      <PassActionSet>
+        <ActionSet ID="c5247003-501d-4478-9d6e-262fe5f1e0d5" Name="EnableGridTabAndExit" Caption="Enable Grid Tab Then Exit Routine" RuleObjectType="Command" CreateLogFile="N" ResID="50060558-68cd-415d-b179-c6f37c41bd9d" ResIDRegisted="N" ID_ResIDMismatch="Y">
+          <Actions>
+            <Action RefID="Action_Form_EnableSelectedControls">
+              <Params>
+                <Param Name="TabToShow" Value="Grid"/>
+              </Params>
+            </Action>
+            <Action RefID="RE_Basic_Action_ExitRuleEvaluationProcess"/>
+          </Actions>
+        </ActionSet>
+      </PassActionSet>
+    </Condition>
+    <Condition ID="795abd08-b530-4f77-a9be-6bd89d6f686e" Name="ValueOfControlTypeIsLookup" Caption="Value Of ControlType is Lookup" CompareOperation="~=" CreateLogFile="N" ResID="eab9d32a-6ef7-41b0-8894-ae8001f4d093" ResIDRegisted="N" ID_ResIDMismatch="Y">
+      <Operands>
+        <Operand ID="d6a05ddd-fdc2-43f2-a62c-5e44c1af232f" Name="ControlTypeValue" Caption="Control Type Value" Side="Left" OperandType="internal" DataType="String" Value="PreviousItem.MyCondition.LeftOperand.EvaluatedValue" ResID="3b438dcc-c4e4-4271-8550-b0bb193d901f" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+        <Operand ID="aa2d6dd8-523a-4adc-a37a-6d8365d9d492" Name="Value_Lookup" Caption="Lookup" Side="Right" OperandType="Value" DataType="String" Value="Lookup" ResID="f99734f9-1829-4b21-9955-fa5d01f53df5" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+      </Operands>
+      <PassActionSet>
+        <ActionSet ID="1d050bd1-95b8-4dc2-ae62-8b49f6df6196" Name="ShowLookupAndExit" Caption="Show Lookup And Exit" RuleObjectType="Command" CreateLogFile="N" ResID="a614a095-ce76-4117-a024-2dcd07867a2d" ResIDRegisted="N" ID_ResIDMismatch="Y">
+          <Actions>
+            <Action RefID="Action_Form_EnableSelectedControls">
+              <Params>
+                <Param Name="TabToShow" Value="Lookup"/>
+              </Params>
+            </Action>
+            <Action RefID="RE_Basic_Action_ExitRuleEvaluationProcess"/>
+          </Actions>
+        </ActionSet>
+      </PassActionSet>
+    </Condition>
+    <Condition ID="af11d2e9-6f4e-4ba7-a797-1a7cc0de98ab" Name="ValueOfControlTypeIsTextbox" Caption="Value Of ControlType is Textbox" CompareOperation="~=" CreateLogFile="N" ResID="8853bb53-6a48-400a-b86c-2ff704f8d9e5" ResIDRegisted="N" ID_ResIDMismatch="Y">
+      <Operands>
+        <Operand ID="add0a524-0221-424d-896c-df7c4f355cf8" Name="ControlTypeValue" Caption="Control Type Value" Side="Left" OperandType="internal" DataType="String" Value="PreviousItem.MyCondition.LeftOperand.EvaluatedValue" ResID="9f56a061-e587-4f8d-a1f8-650faff6fb33" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+        <Operand ID="31756823-4241-42fe-b02e-89a881fbf9b4" Name="Value_Textbox" Caption="Textbox" Side="Right" OperandType="Value" DataType="String" Value="Textbox" ResID="154b7815-c0fb-448a-b0e7-12ea45241dfc" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+      </Operands>
+      <PassActionSet>
+        <ActionSet ID="d18bf097-0a4e-49c4-b3ce-b038373a4ff6" Name="ShowTextboxAndExit" Caption="Show Textbox And Exit" RuleObjectType="Command" CreateLogFile="N" ResID="244e253e-fb2d-48f4-9a54-4e3737abd16f" ResIDRegisted="N" ID_ResIDMismatch="Y">
+          <Actions>
+            <Action RefID="Action_Form_EnableSelectedControls">
+              <Params>
+                <Param Name="TabToShow" Value="Textbox"/>
+              </Params>
+            </Action>
+            <Action RefID="RE_Basic_Action_ExitRuleEvaluationProcess"/>
+          </Actions>
+        </ActionSet>
+      </PassActionSet>
+    </Condition>
+    <Condition ID="0158336c-9f64-42af-87dc-e7f324d22f3a" Name="ValueOfControlTypeIsTab" Caption="Value Of ControlType is Tab" CompareOperation="~=" CreateLogFile="N" ResID="8aab340c-f27f-4c45-8a02-cf5477996c2a" ResIDRegisted="N" ID_ResIDMismatch="Y">
+      <Operands>
+        <Operand ID="ab945db2-3082-4e9f-8795-7481904c9c96" Name="ControlTypeValue" Caption="Control Type Value" Side="Left" OperandType="internal" DataType="String" Value="PreviousItem.MyCondition.LeftOperand.EvaluatedValue" ResID="4a83b8fa-6201-4c41-b0d6-b564916148f0" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+        <Operand ID="b95467c1-92d1-4f0f-93df-f675da1c3316" Name="Value_Tab" Caption="Tab" Side="Right" OperandType="Value" DataType="String" Value="Tab" ResID="b0c7cf81-534f-4a82-b54e-9df83bb0826e" ResIDRegisted="N" ID_ResIDMismatch="Y"/>
+      </Operands>
+      <PassActionSet>
+        <ActionSet ID="935b9507-114a-4698-9ec9-cc4585e86be7" Name="ShowTabAndExit" Caption="Show Tab And Exit" RuleObjectType="Command" CreateLogFile="N" ResID="91dc2cc2-94be-4d92-aefd-7dfd38d6c995" ResIDRegisted="N" ID_ResIDMismatch="Y">
+          <Actions>
+            <Action RefID="Action_Form_EnableSelectedControls">
+              <Params>
+                <Param Name="TabToShow" Value="Tab"/>
+              </Params>
+            </Action>
+            <Action RefID="RE_Basic_Action_ExitRuleEvaluationProcess"/>
+          </Actions>
+        </ActionSet>
+      </PassActionSet>
+    </Condition>
+  </Conditions>
+</Rule>
