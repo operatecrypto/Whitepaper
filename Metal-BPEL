@@ -1,0 +1,51 @@
+       <Process ID="BasicDataOperations_SaveData" Name="BasicDataOperations_SaveData" OperationType="SaveData" ResID="e304372f-404e-42f2-9de1-a32d45c15325" ResIDRegisted="N" ID_ResIDMismatch="Y">
+            <ProcessThreads>
+                <ProcessThread ID="Main" Name="Main" ResID="862980ba-e8f0-41a4-a827-8874903a6534" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                    <ProcessElements>
+                        <ProcessElement ID="Event_Start" Name="Event_Start" ElementType="event" ElementSubType="receive" ResID="25d90f7b-051e-458e-9dbe-eb70962e2f60" ResIDRegisted="N" ID_ResIDMismatch="Y" />
+                        <ProcessElement ID="Activity_RuleTask1" Name="Activity_RuleTask1" ElementType="activity" ElementSubType="ruletask" ResID="d6ec6705-9728-4d17-94a1-74b52c3fa7d8" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                            <ActivityRules>
+                                <RuleSystemObject>
+                                    <Action RefID="Action_Biz_ValidateBusinessObjectForSave" ID="3aea5129-28dc-4049-bb71-4cd4b240a0c1" ResIDRegisted="N" />
+                                </RuleSystemObject>
+                            </ActivityRules>
+                        </ProcessElement>
+                        <ProcessElement ID="Gateway_ForEachDataObject" Name="Gateway_ForEachDataObject" ElementType="gateway" ElementSubType="foreach" NextProcessElementID="" ResID="ddded2b6-f2e6-4169-9822-2d260e75e581" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                            <GateWayCondition>
+                                <RuleSystemObject>
+                                    <Action RefID="Action_Biz_ForEach_GetDataObjectsInMessage" ID="bb2f659f-f09b-40d2-82d5-d52021659e8d" ResIDRegisted="N" />
+                                </RuleSystemObject>
+                            </GateWayCondition>
+                            <ProcessThreads>
+                                <ProcessThread ID="f6f74cdc-b730-44a4-91c3-adb6f33cd41b" ResIDRegisted="N">
+                                    <ProcessElements>
+                                        <ProcessElement ID="Activity_RuleTask5" Name="Activity_RuleTask5" ElementType="activity" ElementSubType="ruletask" ResID="59da6a86-f38a-43b5-9710-ebb7c88b9930" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                                            <ActivityRules>
+                                                <RuleSystemObject>
+                                                    <Action RefID="Action_Biz_SaveRecordDataObject" />
+                                                </RuleSystemObject>
+                                            </ActivityRules>
+                                        </ProcessElement>
+                                        <ProcessElement ID="Activity_RuleTask6" Name="Activity_RuleTask6" ElementType="activity" ElementSubType="ruletask" ResID="bfce530c-a4d7-4f33-bc47-cd12228a30a9" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                                            <ActivityRules>
+                                                <RuleSystemObject>
+                                                    <Action RefID="Action_Biz_FillChildRecordForiegnKeysDataObject" />
+                                                </RuleSystemObject>
+                                            </ActivityRules>
+                                        </ProcessElement>
+                                        <ProcessElement ID="Activity_RuleTask7" Name="Activity_RuleTask7" ElementType="activity" ElementSubType="ruletask" ResID="5fc79fed-8864-4683-aac6-54ac7662150b" ResIDRegisted="N" ID_ResIDMismatch="Y">
+                                            <ActivityRules>
+                                                <RuleSystemObject>
+                                                    <Action RefID="Action_Biz_SaveAuditRecordDataObject" />
+                                                </RuleSystemObject>
+                                            </ActivityRules>
+                                        </ProcessElement>
+                                    </ProcessElements>
+                                </ProcessThread>
+                            </ProcessThreads>
+                        </ProcessElement>
+                    </ProcessElements>
+                </ProcessThread>
+            </ProcessThreads>
+        </Process>
+ 
